@@ -1,6 +1,7 @@
 import yaml
 import os
 import pandas as pd
+import json
 
 def read_config(path_to_yaml: str) -> dict:
     with open(path_to_yaml) as yaml_file:
@@ -16,3 +17,8 @@ def create_directory(dirs: list):
 def save_local_df(data, data_path):
     data.to_csv(data_path, index=False)
     print(f"data is saved at PATH: {data_path}")
+
+def save_reports(report: dict, report_path: str, indentation=4):
+    with open(report_path, "w") as f:
+        json.dump(report, f, indent=indentation)
+    print(f"reports are saved at {report_path}")
