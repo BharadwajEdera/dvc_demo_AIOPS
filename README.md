@@ -17,7 +17,7 @@ cd dvc_demo_AIOPS
 #### This project 
 
 #### Project flow image
-![alt text](reports\ProcessFlowPipeline.png?raw=true)
+![alt text](./reports/ProcessFlowPipeline.png)
 
 ```
 git clone https://github.com/BharadwajEdera/dvc_demo_AIOPS.git
