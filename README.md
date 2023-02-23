@@ -3,6 +3,10 @@ DVC_practise
 
 DVC practise
 
+"""bash
+pip install -r requirements.txt
+"""
+
 Project Organization
 ------------
 
