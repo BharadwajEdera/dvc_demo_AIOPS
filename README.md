@@ -25,10 +25,16 @@ git clone https://github.com/BharadwajEdera/dvc_demo_AIOPS.git
 ```
 pip install -r requirements.txt
 ```
-
+#### Run below command to execute the Pipeline using dvc.yaml
 ```
 dvc repro
 ```
+
+#### TO check the Directed Acyclic Graph (DAG)
+```
+dvc dag
+```
+![alt text](./reports/dag.png)
 
 Project Organization
 ------------
