@@ -3,9 +3,25 @@ DVC_practise
 
 DVC practise
 
-"""bash
+#### To start a new DS Project Structure
+##### Note : This project has already made use of cookiecutter for project setup , so directly install requirements
+```
+pip install cookiecutter
+
+# git url for template
+cookiecutter https://github.com/drivendata/cookiecutter-data-science
+
+cd churn_model
+```
+
+#### This project 
+```
 pip install -r requirements.txt
-"""
+```
+
+```
+dvc repro
+```
 
 Project Organization
 ------------
