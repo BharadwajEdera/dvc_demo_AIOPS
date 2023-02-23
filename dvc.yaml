@@ -11,6 +11,7 @@ stages:
   split_data:
     cmd: python src/stage_02_split_data.py --config=config/config.yaml --params=params.yaml
     deps:
+      - artifacts\raw_local_dir\data.csv
       - src/stage_02_split_data.py
       - src/utils/all_utils.py
       - config/config.yaml
@@ -44,4 +45,5 @@ stages:
       - artifacts/split_data_dir/test.csv
       - artifacts/model_dir/ElasticNet.model
     outs:
+
       - artifacts/reports_dir/scores.json 
