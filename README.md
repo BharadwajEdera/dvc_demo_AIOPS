@@ -11,7 +11,7 @@ pip install cookiecutter
 # git url for template
 cookiecutter https://github.com/drivendata/cookiecutter-data-science
 
-cd churn_model
+cd dvc_demo_AIOPS
 ```
 
 #### This project 
